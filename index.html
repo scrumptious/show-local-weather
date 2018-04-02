@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Weather service </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="row">
+		<div class="col-md-8 col-lg-8 text-center">
+			<h1 class="mt-2 mb-2">
+
+      </h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-lg-8 text-center mb-5">
+			<h3>
+
+      </h3>
+    </div>
+
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-lg-8 text-center mt-7 mb-3">
+      <h3>Find out the weather in your local area</h3>
+      <p>To get a weather click on 'Get location' first and allow to share your location</p>
+      <button id="locationBtn" class="btn btn-primary">Get location</button>
+      <button id="weatherBtn" class="btn btn-primary" disabled="disabled">Get weather</button>
+
+    </div>
+    <div class="col-md-4 col-lg-4 text-center mt-4">
+      <div id="weatherInfo">
+        <p>response about weather</p>
+      </div>
+    </div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-lg-6 text-center" id="alertBox">
+    </div>
+    <div class="col-md-2 col-lg-2 text-center">
+      <button id="toggleUnits" class="btn btn-info">Fahrenheit</button>
+    </div>
+    <div class="col-md-4 col-lg-4 text-center mt-8 mb-4">
+      <p>you know?</p>
+
+    </div>
+
+	</div>
+
+
+
+	<script src="location.js"></script>
+</body>
+</html>
